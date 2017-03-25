@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fortune Teller</string>
+    <string name="author_name">Soneer Sainion</string>
+    <string name="git_hub">GitHub: soneer</string>
+    <string name="student_id"></string>
+    <string name="question_for_user">What will I do today?</string>
+    <string name="button_show_fortune">I Will</string>
+    <string name="outcome_blank"></string>
+    <string name="outcome_1">Make a friend</string>
+    <string name="outcome_2">Get shitted on</string>
+    <string name="outcome_3">Find money</string>
+    <string name="outcome_4">Lose money</string>
+    <string name="outcome_5">Lose a friend</string>
+    <string name="outcome_6">Get kidnapped and rescued by Keanu Reeves</string>
+    <string name="outcome_7">Join a Mariachi Band</string>
+    <string name="outcome_8">Do nothing</string>
+
+
+
+
+    <string name="action_settings">Settings</string>
+</resources>

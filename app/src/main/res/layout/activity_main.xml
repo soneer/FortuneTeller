@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/titleAndQuestionContainer">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+
+            android:layout_height="wrap_content"
+            android:background="#2a2a2a">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+        android:padding="5dp"
+        android:id="@+id/gitHubStudentIdWrapper">
+
+    <TextView android:text="@string/git_hub"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:textColor="#ff6926" />
+
+    <TextView android:text="@string/student_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="#ff6926" />
+
+    </RelativeLayout>
+
+
+
+    <TextView android:text="@string/app_name"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:background="#2a2a2a"
+        android:gravity="center_horizontal"
+        android:textColor="#ff6926" />
+        </RelativeLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#ff6926"
+            android:id="@+id/horizontalLine"
+            />
+
+
+        <TextView android:text="@string/question_for_user"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="#393939" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_show_fortune"
+            android:id="@+id/button_show_fortune"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:textColor="#ffa895"
+            android:background="@drawable/button_custom_unclicked" />
+            </LinearLayout>
+
+ <RelativeLayout
+     android:layout_width="fill_parent"
+     android:layout_height="150dp"
+     android:layout_marginLeft="10dp"
+     android:layout_marginRight="10dp"
+     android:layout_marginTop="30dp"
+     android:background="#61ffd8c4" >
+        <TextView android:text="@string/outcome_blank"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="40sp"
+            android:gravity="center"
+
+            android:id="@+id/textview_fortune_outcome"
+           />
+ </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#2a2a2a"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#ff6926"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/horizontalLineBottom"
+            />
+        <TextView android:text="@string/author_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:paddingBottom="2dp"
+            android:textSize="20sp"
+            android:background="#2a2a2a"
+            android:gravity="center_horizontal"
+            android:textColor="#ff6926" />
+    </RelativeLayout>
+</RelativeLayout>
